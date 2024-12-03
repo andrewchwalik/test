@@ -1,13 +1,13 @@
 /* screen - home-page */
 
 .home-page {
-  align-items: flex-start;
-  background-color: #ffffff;
-  display: flex;
-  flex-direction: column;
-  height: 3953px;
-  overflow: hidden;
-  width: 1440px;
+    align-items: flex-start;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    height: auto; /* Remove fixed height */
+    width: 100%; /* Full width responsive */
+    overflow-x: hidden; /* Prevent horizontal scrolling */
 }
 
 .home-page .overlap-group7 {
